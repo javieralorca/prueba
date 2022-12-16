@@ -27,3 +27,32 @@ footer{
 p{
     font-family: 'Montserrat', sans-serif;
 }
+
+.iconos{
+    background-color: #61723F;
+}
+
+i{
+   color: #F7EFE2;
+   
+   padding-top: 3%;
+   padding-bottom: 3%;
+   
+}
+
+footer{
+    padding-bottom: 5%;
+
+}
+.footer-txt{
+    color: #ffff;
+    font-family: 'Bree Serif', serif;
+}
+
+.container{
+    min-width: 100%; 
+}
+
+.formulario{
+    padding: 5% 0;
+}
