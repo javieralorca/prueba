@@ -10,3 +10,20 @@ h1{
     color: #61723F;
     font-family: 'Bree Serif', serif;
 }
+
+footer{
+    background-color: #61723F;
+}
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Bree Serif', serif;
+    color: #ffff;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
