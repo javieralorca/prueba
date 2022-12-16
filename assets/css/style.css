@@ -33,17 +33,14 @@ p{
 }
 
 i{
-   color: #F7EFE2;
+   color: #ffffff;
    
    padding-top: 3%;
    padding-bottom: 3%;
    
 }
 
-footer{
-    padding-bottom: 5%;
 
-}
 .footer-txt{
     color: #ffff;
     font-family: 'Bree Serif', serif;
@@ -55,4 +52,9 @@ footer{
 
 .formulario{
     padding: 5% 0;
+}
+
+span{
+    padding-left: 2%;
+    color:white;
 }
