@@ -46,7 +46,6 @@ a{
 
 i{
    color: #ffffff;
-   
    padding-top: 3%;
    padding-bottom: 3%;
    
@@ -54,6 +53,7 @@ i{
 
 footer{
     background-color: #61723F;
+    min-width: 100%; 
 }
 
 .footer-txt{
