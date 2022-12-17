@@ -1,9 +1,6 @@
 body{
     background-color: #F7EFE2;
-}
 
-.destacados{
-    background-color: #ffff;
 }
 
 h1{
@@ -11,21 +8,36 @@ h1{
     font-family: 'Bree Serif', serif;
 }
 
-footer{
-    background-color: #61723F;
+p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link{
     font-family: 'Montserrat', sans-serif;
 }
+
 .navbar-brand{
     font-family: 'Bree Serif', serif;
     color: #ffff;
 
 }
 
-p{
-    font-family: 'Montserrat', sans-serif;
+
+
+.destacados{
+    background-color: #ffff;
+    padding: 3% 10%;
+}
+
+.quienes{
+    padding: 3% 10%;
+}
+
+
+
+a{
+    padding-left: 2%;
+    color:white; 
 }
 
 .iconos{
@@ -40,6 +52,9 @@ i{
    
 }
 
+footer{
+    background-color: #61723F;
+}
 
 .footer-txt{
     color: #ffff;
@@ -51,11 +66,7 @@ i{
 }
 
 .formulario{
-    padding: 5% 0;
+    padding: 3% 10%;
 }
 
-span{
-    padding-left: 2%;
-    color:white;
-}
 
