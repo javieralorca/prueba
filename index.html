@@ -205,7 +205,7 @@
   <div class="container" id="contacto">
     <div class="formulario">
       <div class="title-1 text-center">
-        <h1>Contacto</h1>
+        <h1>Contacto</h1> 
       </div>
 
 
@@ -226,9 +226,9 @@
         </div>
 
         <button type="button" class="btn" style="background-color: #61723F; color: #fff;" id="enviarCorreo"
-          data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"
-          data-bs-title="Presiona para enviar">
-          Enviar mensaje
+        data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Enviar mensaje
+          
         </button>
       </form>
     </div>
@@ -246,15 +246,37 @@
       </div>
 
       <div class="col-sm-12 col-md-6 d-flex justify-content-center">
-        <a href="http://www.instagram.com/"><i class="fa-brands fa-2x fa-instagram"></i></a>
-        <a href="http://www.facebook.com/"><i class="fa-brands fa-2x fa-facebook"></i></a>
-        <a href="http://www.twitter.com/"><i class="fa-brands fa-2x fa-twitter"></i></a>
-        <a href="https://github.com/javieralorca/prueba"><i class="fa-brands fa-2x fa-github"></i></a>
+        <a href="http://www.instagram.com/"><i class="fa-brands fa-2x fa-instagram"  data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+          data-bs-title="Instagram"></i></a>
+        <a href="http://www.facebook.com/"><i class="fa-brands fa-2x fa-facebook" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+          data-bs-title="Facebook"></i></a>
+        <a href="http://www.twitter.com/"><i class="fa-brands fa-2x fa-twitter" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+          data-bs-title="Twitter"></i></a>
+        <a href="https://github.com/javieralorca/prueba"><i class="fa-brands fa-2x fa-github" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip"
+          data-bs-title="Github"></i></a>
       </div>
 
     </div>
   </footer>
 
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Mensaje enviado con éxito</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Te responderemos a la brevedad
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
