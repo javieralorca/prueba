@@ -11,10 +11,18 @@ $('#enviarCorreo').click(function(){
     alert("El mensaje fue enviado correctamente")
     })
 
-    $(function () {
-        $('[data-toggle="popover"]').popover()
-      })
+  /*   var nav = document.querySelector('nav'); */
+     
+   /*  window.addEventListener('scroll',function(){
+       if (window.pageYOffset > 100){
+           nav.classList.add('bg-dark',  'shadow');
+       }else
+       nav.classList.remove ('bg-dark', 'shadow');
+    }); */
 
-      $('.popover-dismiss').popover({
-        trigger: 'focus'
-      })
+
+    $('.card-title').click(function(){
+        $('.card-text').toggle("slow",function(){})
+    
+    
+    })
