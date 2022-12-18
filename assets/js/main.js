@@ -11,18 +11,18 @@ $('#enviarCorreo').click(function(){
     alert("El mensaje fue enviado correctamente")
     })
 
-  /*   var nav = document.querySelector('nav'); */
-     
-   /*  window.addEventListener('scroll',function(){
-       if (window.pageYOffset > 100){
-           nav.classList.add('bg-dark',  'shadow');
-       }else
-       nav.classList.remove ('bg-dark', 'shadow');
-    }); */
 
-
-    $('.card-title').click(function(){
-        $('.card-text').toggle("slow",function(){})
-    
-    
-    })
+$(document).ready(function(){
+        $("a").click(function(){
+            var gato = this.hash
+            
+        $("html, body").animate(
+            {
+                scrollTop: $(gato).offset().top -70
+            },
+            900
+        )    
+        
+        })
+        
+        })    
